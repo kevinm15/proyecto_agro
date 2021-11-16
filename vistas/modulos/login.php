@@ -1,11 +1,12 @@
 <div id="back"></div>
 
 <div class="login-box">
+
   
   <div class="login-logo">
 
-    <img src="vistas/img/plantilla/logo-blanco-bloque.png" class="img-responsive" style="padding:30px 100px 0px 100px">
-
+  <p style=" font-size:26pt; font-style:Impact"; align="center">ServiAgro El Roble</p>
+  
   </div>
 
   <div class="login-box-body">

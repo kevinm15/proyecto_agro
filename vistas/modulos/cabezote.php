@@ -8,15 +8,19 @@
 		<!-- logo mini -->
 		<span class="logo-mini">
 			
-			<img src="vistas/img/plantilla/icono-blanco.png" class="img-responsive" style="padding:10px">
+			<img src="vistas/img/plantilla/prueba.png" class="img-responsive" style="padding:0px">
 
 		</span>
 
 		<!-- logo normal -->
 
-		<span class="logo-lg">
+		<span class="logo-lg" >
 			
-			<img src="vistas/img/plantilla/logo-blanco-lineal.png" class="img-responsive" style="padding:10px 0px">
+	
+		<p style=" font-size:16pt; font-style:Impact"; align="center">ServiAgro El Roble</p>
+			
+		
+
 
 		</span>
 
