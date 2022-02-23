@@ -1,0 +1,236 @@
+@media screen and (max-width: 1000px){
+
+	#container{
+		padding: 45px 10px 10px;
+	}
+	.btnMenu{
+		display: block;
+	}
+
+	nav{
+		position: absolute;
+		left: -100%;
+	}
+
+	nav ul{
+		flex-direction: column;
+	}
+	nav ul li:hover ul{
+		display: none;
+	}
+	nav ul li{
+		width: 100%;
+		border-bottom: 1px solid #CCC;
+	}
+	nav ul li a{
+		text-align: left;
+		width: 100%;
+	}
+	nav li ul{
+		position: relative !important;
+		border-radius: 0 !important;
+	}
+	nav li ul li:last-child{
+		border-radius: 0;
+	}
+	nav .principal .arrow{
+		float: right;
+	}
+	header h1{
+		font-size: 14px;
+	}
+
+	.optionsBar span, .photouser, .optionsBar a{
+		margin-left: 15px;
+	}
+
+	#infoReportes > div{
+		width: 48%;
+		margin-bottom: 55px;
+	}
+}
+@media screen and (max-width: 850px){
+	#ventasDia > div{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.dashboard{
+		flex-wrap: wrap;
+	}
+	.dashboard a{
+		width: 50%;
+		border: 1px solid #CCC;
+		flex-direction: column;
+	}
+	.dashboard > a > div{
+		margin-left: 0;
+	}
+	.containerDataUser,.containerDataEmpresa{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#container h1{
+		font-size: 12pt;
+	}
+	form{
+		padding: 10px;
+	}
+	.form_register{
+		width: 100%;
+	}
+
+	/* lista usuarios */
+	.btn_new{
+		margin: 0;
+		margin-left: 10px;
+		padding: 5px 10px;
+		font-size: 8pt;
+	}
+	.form_search{
+		width: 100%;
+		margin-top: 10px;
+		border: 0;
+	}
+
+	.containerTable{
+		width: 100%;
+		border: 5px solid #CCC;
+		overflow: scroll;
+	}
+	table{
+		width: 850px;
+	}
+	table td, table th{
+		padding: 5px;
+		font-size: 9pt;
+	}
+	label{
+		font-size: 9pt;
+	}
+
+	.datos_venta .btn_ok, .datos_venta .btn_new {
+		margin: 5px;
+		font-size: 11pt;
+		padding: 5px;
+		width: 124px;
+	}
+	#form_new_cliente_venta input{
+		font-size: 9pt;
+	}
+	/* Modal Ver usuarios */
+	.formModal{
+		width: 90%;
+	}
+	.formModal table{
+		width: 100%;
+	}
+	.formModal .btn_new, .formModal .btn_cancel{
+		font-size: 11pt;
+	}
+	.modal h1{
+		font-size: 11pt;
+	}
+	.containerDataUser, .containerDataEmpresa{
+		flex-direction: column;
+	}
+	.logoUser, .logoEmpresa{
+		margin: 20px auto;
+		border-radius: 100%;
+		padding: 25px;
+		width: 180px;
+	}
+	.divdataUser{
+		width: 100%;
+	}
+	input, select, textarea{
+		font-size: 9pt;
+	}
+	.btn_updateData {
+		margin: 20px 0;
+		font-size: 11pt;
+		padding: 5px 20px;
+	}
+	#containerDataVenta{
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	#infoReportes > div, #infoReportes #ventasMesDia,#infoReportes #ventasAnioMes,#infoReportes #grIngresosEgresos,#infoReportes #ingressosEgresos{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#infoReportes table{
+		width: 100%;
+	}
+	.fechaCorta{
+		display: block;
+		font-size: 8pt;
+	}
+	.fechaLarga{
+		display: none;
+	}
+	#containerDataVenta > div:first-child, #containerDataVenta > div:last-child{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+	.dashboard a{
+		width: 33%;
+		margin-bottom: 3px;
+		height: 75px;
+	}
+	.dashboard a{
+		font-size: 0;
+	}
+	.dashboard h3{
+		font-size: 7pt;
+	}
+	.dashboard a svg{
+		font-size: 15pt;
+	}
+	.dashboard span{
+		font-size: 12pt !important;
+	}
+	.optionsBar span, .photouser, .optionsBar a{
+		margin-left: 10px;
+	}
+	.infoab{
+		text-align: center;
+		font-size: 6pt;
+	}
+	.logoUser img, .logoEmpresa img{
+		width: 100%;
+	}
+	.dashboard a{
+		padding: 5px 2px;
+	}
+	.dashboard a{
+
+	}
+	.dashboard p{
+		font-size: 9pt;
+	}
+	.dashboard a span{
+		font-size: 10pt;
+	}
+	.logoUser, .logoEmpresa{
+		width: 120px;
+		height: 120px;
+	}
+
+	#ventasDia > div{
+		width: 50%;
+	}
+	#frmChangePass label, #frmEmpresa label{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.wdsm100{
+		width: 100%;
+	}
+
+}

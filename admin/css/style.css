@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    background-image: url(../img/fondoLogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+	font-family: 'Arial';
+	font-size: 15pt;
+	letter-spacing: 1px;
+	width: 100%;
+	padding: 15px;
+	color: #5f6f75;
+	text-align: center;
+	text-transform: uppercase;
+}
+#container {
+    background-color: rgba(63, 142, 166, 0.83);
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container form {
+    background-color:#f9f9f9;
+    width: 275px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#container form img{
+	margin: 15px auto;
+	text-align: center;
+	display: block;
+}
+#container form input{
+	width: 90%;
+	padding: 5px;
+	font-size: 10pt;
+	display: block;
+	margin: 10px auto;
+	border-radius: 5px;
+	border: 1px solid #acacac;
+	background: transparent;
+	color:#5f6f75;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#container form input[type="submit"]{
+	background:  #0fb555;
+	padding: 6px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #717171;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #717171;
+}
+::placeholder {
+  color: #717171;
+}
+
+.alert{
+	font-family: 'Arial';
+	font-size: 13px;
+	text-align: center;
+}
+.divRecoveryPass{
+	text-align: center;
+}
+#linkRecoveryPass{
+	font-family: 'Arial';
+	color: #666666;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+	display: block;
+	text-decoration: none;
+}
+.modalLogin{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: auto;
+	background: rgba(0, 0, 0, 0.7);
+}
+.bodyModalLogin{
+	background-color: #f9f9f9;
+	padding: 20px;
+	width: 90%;;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+}
+.closeModal{
+	position: absolute;
+	background:#f94848;
+	padding: 10px;
+	top: -13px;
+	right: -13px;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#FFF;
+	font-family: arial;
+	cursor: pointer;
+}
+.bodyModalLogin p{
+	font-family: 'Arial';
+	color: #3d88a6;
+	font-size: 11pt;
+}
+.titleModalLogin{
+	color: #5f6f75;
+	display: block;
+	font-family: 'Arial';
+	font-size: 16pt;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+input{
+	padding: 5px;
+	display: block;
+	width: 100%;
+	color: #5f6f75;
+	margin-bottom: 10px;
+	font-size: 12pt;
+	border: 0;
+	text-align: center;
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+.btnActionForm{
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	border: 0;
+	background:#24a651;
+	color:#FFF;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 12pt;
+
+}
+.loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:
+	rgba(255,255,255,.80);
+	z-index: 10000;
+}
+.loading img{
+	width: 50px;
+	height: auto;
+}

@@ -1,0 +1,15 @@
+1. Crear una base de datos con tel cotejamiento latin1_bin, en el servidor local o en el servidor donde se vaya a subir el sistema.
+2. Ejecutar el script de la base de datos con el nombre DB.sql en la base de datos creado anteriormente.
+3. Cambiar los datos de conexión en el archivo conexion.php
+	$host = 'SERVIDOR';
+	$user = 'USUARIO';
+	$password = 'CONTRASEÑA';
+	$db = 'BASE_DE_DATOS';
+4. Abrir el archivo config.php que se encuentra en la carpeta sistema/includes y modifique la variable $base_url
+	$base_url = "http://localhost/sistema_ventas";
+	debe sustituir la ruta que esta en comillas por la ruta donde estará el sistema 
+5. Escriba en el navegador la dirección completa del sistema he inicie sesión
+	Ejemplo: http://localhost/sistema_ventas/admin
+	usuario: admin
+	clave: 123456
+6. La página principal del sistema corresponde al sistema de pedidos.

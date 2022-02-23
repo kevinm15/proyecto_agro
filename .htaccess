@@ -1,5 +1,4 @@
-Options All -Indexes
-
 RewriteEngine On
-
-RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
+options -Indexes
+ErrorDocument 404 %{HTTP_HOST}
+ErrorDocument 403 %{HTTP_HOST}
